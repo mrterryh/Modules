@@ -1,0 +1,17 @@
+<?php
+
+namespace {namespace}Providers;
+
+use App;
+use Illuminate\Support\ServiceProvider;
+
+class {name}ServiceProvider extends ServiceProvider
+{
+	/**
+	 * Register the {name} module service provider.
+	 */
+	public function register()
+	{
+		App::register('{namespace}Providers\RouteServiceProvider');
+	}
+}

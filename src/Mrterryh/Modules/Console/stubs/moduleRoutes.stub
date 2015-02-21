@@ -1,0 +1,7 @@
+<?php
+
+Route::group(['prefix' => '{identifier}'], function() {
+	Route::get('/', function() {
+		return 'This route was generated automatically.';
+	});
+});

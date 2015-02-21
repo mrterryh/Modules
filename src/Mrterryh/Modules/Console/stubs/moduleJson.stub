@@ -1,0 +1,8 @@
+{
+	"name": "{name}",
+	"identifier": "{identifier}",
+	"author": "Anonymous",
+	"version": "1.0.0",
+	"description": "This description was generated automatically.",
+	"enabled": true
+}
