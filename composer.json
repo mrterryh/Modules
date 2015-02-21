@@ -1,6 +1,6 @@
 {
     "name": "mrterryh/modules",
-    "description": "",
+    "description": "A simple Laravel 5 modules package.",
     "authors": [
         {
             "name": "Terry Harvey",
