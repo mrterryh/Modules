@@ -42,6 +42,15 @@ class Module
 	}
 
 	/**
+	 * Returns the module namespace.
+	 * @return string
+	 */
+	public function getNamespace()
+	{
+		return 'Modules\\' . $this->name . '\\';
+	}
+
+	/**
 	 * Returns the data for the module.
 	 * @return array
 	 */
