@@ -18,7 +18,7 @@ class MakeModuleMigrationCommand extends Command
 	/**
 	 * @var string
 	 */
-	protected $description = 'Creates a new module database migration.';
+	protected $description = 'Creates a new database migration for the specified module.';
 
 	/**
 	 * @var Repository
