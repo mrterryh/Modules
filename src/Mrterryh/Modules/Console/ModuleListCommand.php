@@ -58,7 +58,7 @@ class ModuleListCommand extends Command
 		return [
 			'name'			=>	$module->name,
 			'description'	=>	$module->description,
-			'enabled'		=>	$module->isEnabled() ? 'Enabled' : 'Disabled'
+			'enabled'		=>	$module->isEnabled() ? '<info>Enabled</info>' : '<error>Disabled</error>'
 		];
 	}
 }
