@@ -119,6 +119,16 @@ class Module
 	}
 
 	/**
+	 * Quicker method to access the module data.
+	 * @param  string $key
+	 * @return mixed
+	 */
+	public function __get($key)
+	{
+		return $this->getData()->$key;
+	}
+
+	/**
 	 * Returns the JSON decoded module data, loaded from the module.json file.
 	 * @return array
 	 */
