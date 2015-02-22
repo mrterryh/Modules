@@ -46,6 +46,9 @@ class MakeModuleMigrationCommand extends Command
 		$moduleName = $this->argument('name');
 		$module = $this->moduleRepo->getByName($moduleName);
 
+		if (!$module)
+			return $this->error("Module [$moduleName] does not exist.");
+
 		$migrationName = $this->argument('migration');
 
 		$generator = new ModuleMigrationGenerator($migrationName, $this->laravel, $module);
