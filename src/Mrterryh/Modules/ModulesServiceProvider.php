@@ -21,6 +21,7 @@ class ModulesServiceProvider extends ServiceProvider
 		'Mrterryh\Modules\Console\MakeModuleMigrationCommand',
 		'Mrterryh\Modules\Console\ModuleMigrateCommand',
 		'Mrterryh\Modules\Console\ModuleMigrateRollbackCommand',
+		'Mrterryh\Modules\Console\ModuleSeedCommand',
 	];
 
 	/**
