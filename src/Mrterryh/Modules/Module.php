@@ -152,7 +152,8 @@ class Module
 		$data = $this->getData();
 		$data->$key = $value;
 
-		if (!$save) return;
+		if (!$save)
+			return $this->data = $data;
 
 		$data = json_encode($this->data, \JSON_PRETTY_PRINT);
 		$path = $this->getPath() . 'module.json';
