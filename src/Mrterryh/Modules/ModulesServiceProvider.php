@@ -24,6 +24,7 @@ class ModulesServiceProvider extends ServiceProvider
 		'Mrterryh\Modules\Console\ModuleSeedCommand',
 		'Mrterryh\Modules\Console\MakeModuleRequestCommand',
 		'Mrterryh\Modules\Console\ModuleListCommand',
+		'Mrterryh\Modules\Console\MakeModuleCommandCommand',
 	];
 
 	/**

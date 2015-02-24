@@ -1,0 +1,16 @@
+<?php
+
+namespace {namespace}Commands;
+
+use App\Commands\Command;
+
+class {className} extends Command
+{
+	/**
+	 * Class constructor.
+	 */
+	public function __construct()
+	{
+		//
+	}
+}
