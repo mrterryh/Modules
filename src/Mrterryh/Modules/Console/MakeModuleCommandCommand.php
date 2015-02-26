@@ -71,7 +71,7 @@ class MakeModuleCommandCommand extends Command
 	protected function getArguments()
 	{
 		return [
-			['name', InputArgument::REQUIRED, 'The name of your module.'],
+			['moduleName', InputArgument::REQUIRED, 'The name of your module.'],
 			['commandName', InputArgument::REQUIRED, 'The name of your command.'],
 		];
 	}
