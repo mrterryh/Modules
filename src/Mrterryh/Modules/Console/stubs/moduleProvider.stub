@@ -13,5 +13,6 @@ class {name}ServiceProvider extends ServiceProvider
 	public function register()
 	{
 		App::register('{namespace}Providers\RouteServiceProvider');
+		App::register('{namespace}Providers\BusServiceProvider');
 	}
 }

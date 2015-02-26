@@ -49,6 +49,7 @@ class ModuleGenerator extends Generator
 		'Http/routes.php'							=>	'moduleRoutes.stub',
 		'Providers/{name}ServiceProvider.php'		=>	'moduleProvider.stub',
 		'Providers/RouteServiceProvider.php'		=>	'moduleRouteProvider.stub',
+		'Providers/BusServiceProvider.php'			=>	'moduleBusProvider.stub',
 		'module.json'								=>	'moduleJson.stub',
 		'Database/Seeders/{name}DatabaseSeeder.php'	=>	'moduleDbSeeder.stub'
 	];
