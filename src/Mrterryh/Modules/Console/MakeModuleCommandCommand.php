@@ -55,6 +55,13 @@ class MakeModuleCommandCommand extends Command
 		$generator->generate();
 
 		$this->info("The command [$commandName] has been created for module [$moduleName].");
+
+		$this->call('module:make-handler', [
+			'type' 			=>	'command',
+			'moduleName' 	=>	$moduleName,
+			'handlerName'	=>	$commandName . 'Handler',
+			'handlingName'	=>	$commandName
+		]);
 	}
 
 	/**
