@@ -1,0 +1,26 @@
+<?php
+
+namespace {namespace}Handlers\{handlerType}s;
+
+use Illuminate\Queue\InteractsWithQueue;
+use {namespace}{handlerType}s\{handlingClass};
+
+class {className}
+{
+	/**
+	 * Create the command handler.
+	 */
+	public function __construct()
+	{
+		//
+	}
+
+	/**
+	 * Handle the command.
+	 * @param $command
+	 */
+	public function handle({handlingClass} $command)
+	{
+		//
+	}
+}
