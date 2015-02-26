@@ -65,7 +65,7 @@ class ModuleRequestGenerator extends Generator
 	 */
 	public function getFilePath()
 	{
-		return $this->module->getPath() . 'Http/Requests/' . $this->getRequestName();
+		return $this->module->getPath() . 'Http/Requests/' . $this->getRequestName() . '.php';
 	}
 
 	/**
