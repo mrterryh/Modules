@@ -43,7 +43,7 @@ class MakeModuleCommandCommand extends Command
 	 */
 	public function fire()
 	{
-		$moduleName = $this->argument('name');
+		$moduleName = $this->argument('moduleName');
 		$module = $this->moduleRepo->getByName($moduleName);
 
 		if (!$module)
