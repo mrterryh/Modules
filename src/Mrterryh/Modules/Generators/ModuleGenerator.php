@@ -39,7 +39,10 @@ class ModuleGenerator extends Generator
 		'Providers',
 		'Database',
 		'Database/Seeders',
-		'Database/Migrations'
+		'Database/Migrations',
+		'Resources',
+		'Resources/Views',
+		'Resources/Language'
 	];
 
 	/**

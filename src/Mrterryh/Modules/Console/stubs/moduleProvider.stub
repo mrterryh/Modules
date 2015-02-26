@@ -3,6 +3,8 @@
 namespace {namespace}Providers;
 
 use App;
+use Lang;
+use View;
 use Illuminate\Support\ServiceProvider;
 
 class {name}ServiceProvider extends ServiceProvider
@@ -14,5 +16,8 @@ class {name}ServiceProvider extends ServiceProvider
 	{
 		App::register('{namespace}Providers\RouteServiceProvider');
 		App::register('{namespace}Providers\BusServiceProvider');
+
+		Lang::addNamespace('{identifier}', base_path('Modules/{name}/Resources/Language'));
+		View::addNamespace('{identifier}', base_path('Modules/{name}/Resources/Views'));
 	}
 }
