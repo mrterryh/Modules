@@ -1,9 +1,9 @@
 <?php
 
-namespace {namespace}Handlers\{handlerType}s;
+namespace {namespace}Handlers\Commands;
 
 use Illuminate\Queue\InteractsWithQueue;
-use {namespace}{handlerType}s\{handlingClass};
+use {namespace}Commands\{handlingClass};
 
 class {className}
 {
