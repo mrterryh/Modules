@@ -1,0 +1,28 @@
+<?php
+
+namespace {namespace}Handlers\Events;
+
+use {namespace}Events\{handlingClass};
+
+use Illuminate\Queue\InteractsWithQueue;
+use Illuminate\Contracts\Queue\ShouldBeQueued;
+
+class {className}
+{
+	/**
+	 * Create the event handler.
+	 */
+	public function __construct()
+	{
+		//
+	}
+
+	/**
+	 * Handle the event.
+	 * @param  {handlingClass} $event
+	 */
+	public function handle({handlingClass} $event)
+	{
+		//
+	}
+}
